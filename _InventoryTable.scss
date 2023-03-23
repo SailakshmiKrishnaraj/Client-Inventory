@@ -1,0 +1,183 @@
+
+.body {
+  height: 84.5vh;
+  overflow: hidden;
+}
+.table-header{
+  height: 10vh !important;
+  background-color: lemonchiffon;
+
+.header-logo{
+    height: 50px;
+    min-height: 30px;
+    display: flex;
+    padding-top: 12px;
+}}
+.footer-textStyle{
+  font-size: 10px;
+  /* background-color:; */
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  height:5.5vh;
+  font-family:'Times New Roman', Times, serif;
+  padding: 0.5rem !important;
+  background-color: lemonchiffon;
+  
+}
+.footer-logo{
+  height: 16px;
+  padding-left: 10px;
+}
+.mtableScrollbar {
+  background-color: #FFFFFF;
+
+  
+        div::-webkit-scrollbar {
+          width: 0.8em;
+        }
+
+        div::-webkit-scrollbar-thumb {
+          border-radius: 18px;
+          min-height: 5rem;
+          background-color: #cacdcfbf !important;
+          background-clip: content-box;
+        }
+
+        div::-webkit-scrollbar:hover {
+          width: 0.8em;
+        }
+
+        div::-webkit-scrollbar-thumb:hover {
+          background-color: #83878b !important;
+        }
+      }
+ 
+.buttonStyle{
+    background-color: #eea;
+    font-family: 'Nunito Sans', sans-serif;
+    cursor: pointer;
+    color:rgb(233, 41, 41);
+    border: none;
+    border-radius: 6PX !important;
+    font-size: 14px;
+    display: inline;
+    padding: 4px 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 11px;
+}
+.body::-webkit-scrollbar {
+  width: 0.9em;
+  border-radius: 8px;
+}
+.body::-webkit-scrollbar-thumb {
+  border-radius: 18px;
+  min-height: 5rem;
+  background-color: #cacdcfbf;
+
+  background-clip: content-box;
+}
+.body::-webkit-scrollbar:hover {
+  width: 12px;
+}
+.body::-webkit-scrollbar-thumb:hover {
+  background-color: #83878b!important;
+  border: 5px solid #83878b!important;
+}
+
+.CursorPointer {
+  cursor: pointer;
+}
+.popupbtn {
+  color: whitesmoke;
+  background-color: grey;
+  cursor: pointer !important;
+  outline: none;
+    border: none;
+    padding: 5px 24px;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 2px;
+    font-family: arial;
+}
+.form-control {
+  border: 1px solid grey  !important;
+}
+.form-select {
+  @extend .form-control;
+}
+.save-btn {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 12px 0px;
+}
+.modal-content {
+  border: 1px solid grey !important;
+}
+.modal-header {
+  background-color:oldlace;
+  color: brown;
+  .btn-close {
+    color: whitesmoke !important;
+  }
+}
+.modal-footer{
+  justify-content: space-between !important;
+  background-color:oldlace;
+  .col-form-label{
+    padding: 6px 0 2px 0.5rem !important;
+  }
+}
+
+
+.col-form-label {
+  padding: 6px 0 2px 2.3rem !important;
+  font-size: 14px !important;
+  font-family: 'Times New Roman', Times, serif!important;
+  font-weight: bold;
+  letter-spacing: 1px !important;
+  margin-right:6px !important;
+}
+
+.form-control {
+  border: 1px solid #c8c8c8 !important;
+  background-color: #ecebf1 !important;
+  font-size: 13px !important;
+  padding: 0px 0.5rem !important;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 2px 0px;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+.MuiTypography-root{
+  font-family: 'Times New Roman', Times, serif!important;
+}
+.MuiButton-root{
+  font-family: "Helvetica","Arial",sans-serif !important;
+}
+.MuiDataGrid-columnHeaderTitle{
+  font-family: "Helvetica","Arial",sans-serif !important;
+}
+label{
+  .MuiButton-root{
+   font-weight: bold !important;
+  }
+}
+#formControlTextarea {
+  resize: none;
+  height: 18rem;
+}
+
+.closeBtn {
+  font-size: 19px;
+  stroke-width: 1px;
+  cursor: pointer;
+  color: brown;
+}
+
+
+

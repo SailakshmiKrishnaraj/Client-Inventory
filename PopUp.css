@@ -1,0 +1,100 @@
+.popupbtn {
+  color: whitesmoke;
+  background-color: grey;
+  cursor: pointer !important;
+  outline: none;
+  border: none;
+  padding: 5px 24px;
+  margin-left: 5px;
+  font-size: 15px;
+  border-radius: 2px;
+  font-family: arial;
+}
+
+.form-control, .form-select {
+  border: 1px solid grey  !important;
+}
+
+.save-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0px 12px 0px;
+}
+
+.modal-content {
+  border: 1px solid grey !important;
+}
+
+.modal-header {
+  background-color: GREY;
+  color: whitesmoke;
+}
+
+.modal-header .btn-close {
+  color: whitesmoke !important;
+}
+
+.modal-footer {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.modal-footer .col-form-label {
+  padding: 6px 0 2px 0.5rem !important;
+}
+
+.col-form-label {
+  padding: 6px 0 2px 2.3rem !important;
+  font-size: 14px !important;
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: bold;
+  letter-spacing: 1px !important;
+  margin-right: 6px !important;
+}
+
+.form-control, .form-select {
+  border: 1px solid #c8c8c8 !important;
+  background-color: #ecebf1 !important;
+  font-size: 13px !important;
+  padding: 0px 0.5rem !important;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 2px 0px;
+}
+
+.form-control:focus, .form-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.MuiTypography-root {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.MuiButton-root {
+  font-family: "Helvetica","Arial",sans-serif !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-family: "Helvetica","Arial",sans-serif !important;
+}
+
+label .MuiButton-root {
+  font-weight: bold !important;
+}
+
+#formControlTextarea {
+  resize: none;
+  height: 18rem;
+}
+
+.closeBtn {
+  font-size: 19px;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=PopUp.css.map */
